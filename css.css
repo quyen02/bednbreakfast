@@ -1,0 +1,418 @@
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color:mintcream; 
+	overflow:visible;
+}
+
+body {
+	margin:0px;
+}
+
+a{
+	text-decoration: none;
+	color:darkslateblue;
+}
+
+a:hover{
+	color:green;
+}
+
+a:hover img{
+    opacity: 0,5;
+    mix-blend-mode:multiply;
+}
+
+.header {
+	background: url(blume.jpg) no-repeat; 
+	opacity: 100%;
+	height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.header h1{
+    color:darkslateblue;
+    font-size:74px;
+    margin-top: 0px;
+	padding-top: 153px;
+	text-align: right;
+	padding-right: 20px;
+
+}
+
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 113%;
+	padding: 20px;
+	list-style:none;
+	background-color: mintcream;
+}
+
+.content{	
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 0px;
+	padding-top: 50px;
+	border-top: solid 2px;
+	border-color: slateblue;
+	background-color: aliceblue;
+}
+
+.content p{
+	text-align:justify;
+	text-align-last:none ;
+	max-width: 450px;
+	margin-top: 80px;	
+}
+
+.p p{
+	text-align: right;
+	padding-bottom: 30px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	background-color: aliceblue;
+}
+
+.end{
+	padding-left: 40px;
+	border-top: solid 2px;
+	border-color: slateblue;
+}
+
+.end p{
+	font-size: 15px;
+}
+
+h1{
+	margin-top: 0px;
+	color:darkslateblue;
+    font-size:70px;
+    margin-top: 0px;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+
+.headline-left h2{
+	font-size:35px;
+	padding-left:40px;
+	margin-left: 40px;
+	color:darkslateblue;
+	font-style: italic;
+	border-left:solid 2px;
+	border-color: darkslateblue;
+}
+
+.bild-neben-bild {	
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.text-unten p{
+	border-left:solid 2px;
+	border-color: darkslateblue;
+	padding-left:40px;
+	margin-left: 40px;
+	max-width: 1050px;
+	margin-bottom: 70px;
+}
+
+.headline-right h2{
+	font-size:35px;
+	padding-right:40px;
+	margin-right: 40px;
+	color:darkslateblue;
+	font-style: italic;
+	border-right:solid 2px;
+	border-color: darkslateblue;
+	text-align: right;
+}
+
+.bild-neben-text {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 80px;
+
+}
+
+.bild-neben-text p{
+	text-align:justify;
+	text-align-last:none ;
+	max-width:450px;
+	padding-top: 110px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	border-color: darkslateblue;
+
+}
+
+.zurück{
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-style: italic;
+	
+}
+
+.background{
+	background-color: aliceblue;
+	border-top: solid 2px;
+	border-color: darkslateblue;
+	padding-bottom: 10px;
+}
+ 
+.lage{
+	background: url(IMG-7532.jpg) no-repeat; 
+	opacity: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.lage h1{
+	margin-top: 0px;
+	color:darkslateblue;
+    font-size:70px;
+    margin-top: 0px;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+
+.umgebung{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 40px;
+	padding-top: 50px;
+	background-color: aliceblue;
+	
+}
+
+.umgebung p{
+	text-align:justify;
+	text-align-last:none ;
+	max-width: 450px;
+	margin-top: 80px;	
+}
+
+.activities{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 80px;
+
+}
+
+.activities p{
+	text-align:justify;
+	text-align-last:none ;
+	max-width:450px;
+	padding-top: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	border-color: darkslateblue;
+
+}
+
+.impressum{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.impressum ul{
+	list-style: none;
+}
+
+.bild-neben-text {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 80px;
+
+}
+.kontakt ul{
+	list-style: none;
+	color: darkslateblue;
+	line-height: 140%;
+	padding-top: 100px;
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	border-color: darkslateblue;
+	margin: 0px;
+	padding-left:20px;
+}
+
+.kontakt{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+
+}
+
+.text-unten-kontakt p{
+	border-left:solid 2px;
+	border-color: darkslateblue;
+	padding-left:40px;
+	margin-left: 40px;
+	max-width: 1050px;
+	margin-bottom: 30px;
+}
+
+.buchung{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-left: 50px;
+}
+
+.buchung table{
+	border-top:solid 2px;
+	border-bottom:solid 2px;
+	border-color: darkslateblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 15px;
+}
+
+.buchung tr, td{
+	padding: 15px;
+	padding-right: 50px;
+	color: darkslateblue;
+}
+
+tr:hover{
+	background-color:rgb(174, 168, 212) ;
+}
+
+.bemerkung{
+	font-size: 13px;
+	color: darkslateblue;
+	text-align: right;
+	margin-right: 100px;
+	line-height: 60%;
+
+}
+
+.kalender td{
+	padding:7px;
+}
+
+.kalender{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+}
+
+.kalender table{
+	padding-bottom: 13px;
+}
+
+.monate {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	padding-top: 10px;
+	border-top:dotted 1px;
+}
+
+.monate p{
+	color: darkslateblue;
+	font-weight: bold;
+	justify-items: end;
+	font-size: 21px;
+	
+}
+
+.ausgebucht{
+	color: green;
+	font-weight: 600;
+	background-color: rgb(180, 212, 180);
+}
+
+.zahlung{
+	margin-left: 50px;
+	
+}
+.zahlung tr:hover{
+	background-color:rgb(174, 168, 212) ;
+}
+
+.jetzt p{
+	border: solid 1px;
+	border-radius: 30px;
+	border-color: rgb(174, 168, 212);
+	font-size: 30px;
+	padding: 20px;
+	background-color:rgb(174, 168, 212) ;
+}
+
+.jetzt{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.über{
+	background: url(blume.jpg) no-repeat; 
+	opacity: 100%;
+	height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.über h1{
+	text-align: right;
+	margin-right: 70px;
+}
+
+.team{
+	background: url(neu.jpg) no-repeat; 
+	opacity: 100%;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+	margin-bottom: 70px;
+}
+
+.team h1{
+	margin-bottom: 50px;
+}
